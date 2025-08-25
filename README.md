@@ -24,6 +24,14 @@ Basic knowledge of JavaScript and web development
 
 Installation
 1. Clone the repository
-   '''
+```
    git clone https://github.com/yourusername/income-expense-website.git
-'''
+```
+
+2. Navigate to the project directory
+```
+cd income-expense-website
+```
+
+
+
