@@ -33,5 +33,21 @@ Installation
 cd income-expense-website
 ```
 
+3. Install dependencies
+```
+npm install
+```
 
+4. Create a .env file
+Inside the project root, create a .env file and configure the following variables:
+```
+PORT=3000
+MONGODB_URI=mongodb://localhost:27017/income-expense
+JWT_SECRET=your-secret-key
+```
+🔹 Replace your-secret-key with a strong and unique secret key for JWT token generation.
 
+5. Run the application
+```
+npm start
+```
